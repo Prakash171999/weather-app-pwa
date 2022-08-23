@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import { getWeather } from "../api/getWeather";
+import './weatherStyles.css';
+
 
 const Weather = () => {
   const [query, setQuery] = useState("");
